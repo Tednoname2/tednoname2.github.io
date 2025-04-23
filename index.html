@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Home Theater</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="home-theater">
+        <div id="home" class="page">
+            <h1>Home</h1>
+            <p>Welcome to your home theater!</p>
+            <button onclick="navigateTo('movie-library')">Go to Movie Library</button>
+        </div>
+
+        <div id="movie-library" class="page" style="display: none;">
+            <h1>Movie Library</h1>
+            <p>Browse your collection of movies.</p>
+            <button onclick="navigateTo('home')">Go to Home</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
